@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Lista de Tareas con Copilot</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="container mx-auto max-w-xl p-6 bg-white rounded-lg shadow-lg mt-10"
+    >
+      <h1 class="text-3xl font-bold text-center mb-8 text-blue-700">
+        Lista de Tareas
+      </h1>
+
+      <div class="task-form mb-8 flex flex-col gap-4">
+        <input
+          type="text"
+          id="taskTitle"
+          placeholder="Título de la tarea"
+          required
+          class="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
+        <textarea
+          id="taskDescription"
+          placeholder="Descripción (opcional)"
+          class="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none"
+        ></textarea>
+        <input
+          type="date"
+          id="taskDueDate"
+          class="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
+        <select
+          id="taskPriority"
+          class="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        >
+          <option value="Low">Baja</option>
+          <option value="Medium" selected>Media</option>
+          <option value="High">Alta</option>
+        </select>
+        <button
+          id="addTaskButton"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition-colors"
+        >
+          Agregar Tarea
+        </button>
+      </div>
+
+      <div class="task-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "2",
+    "title": "Probando json de tareas",
+    "description": "Vamos a armar un json con tareas",
+    "dueDate": "2025-07-11",
+    "priority": "Low",
+    "status": "Pending"
+  }
+]
