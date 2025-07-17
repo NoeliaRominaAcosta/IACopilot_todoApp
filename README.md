@@ -1,6 +1,6 @@
 # Mi Aplicación de Lista de Tareas con GitHub Copilot
 
-Esta es una aplicación web simple de "Lista de Tareas" desarrollada por Romina Acosta para demostrar la eficiencia de GitHub Copilot en el desarrollo full-stack.El esqueleto inicial de script.js, index.html y styles.css fue generado por Gemini IA y Copilot realizó las modificaciones para conectar frontend y backend además del guardado de las tareas en formato json
+Esta es una aplicación web simple de "Lista de Tareas" desarrollada por Romina Acosta para demostrar la eficiencia de GitHub Copilot en el desarrollo full-stack.El esqueleto inicial de script.js, index.html y styles.css fue generado por Gemini IA (para obtener los prompts que se utilizaron con Copilot) y Copilot realizó los endpoints, la estructura html y css, el servidor de express y las modificaciones para conectar frontend y backend además del guardado de las tareas en formato json
 
 ## Cómo Iniciar
 
